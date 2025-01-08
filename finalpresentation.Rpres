@@ -1,0 +1,59 @@
+---
+title: "Next Word Prediction App"
+author: "Sushanth P H"
+date: "January 8th, 2025"
+output: ioslides_presentation
+---
+
+## Introduction
+
+This presentation briefly pitches the **Next Word Prediction App**, which is a simple Shiny web application designed to predict the next word based on the user's input phrase.
+
+The project is aimed at showcasing basic natural language processing (NLP) techniques using a Shiny app. 
+
+![Shiny Logo](logos.png)
+
+---
+
+## The Objective
+
+The main goal of this project is to build a Shiny application that predicts the next word based on a given input phrase.
+
+Tasks:
+- Data preprocessing and cleaning.
+- Creating a predictive model using n-grams (unigrams, bigrams, trigrams).
+- Implementing the prediction model in a Shiny app.
+
+The dataset used in this project is sourced from publicly available text corpora.
+
+---
+
+## The Applied Methods & Models
+
+To build the model:
+1. **Data Preprocessing**: Clean the text (convert to lowercase, remove punctuation, white space, and special characters).
+2. **Tokenization**: The data was tokenized into n-grams (unigrams, bigrams, trigrams) to capture relationships between words.
+3. **Prediction Model**: A frequency-based model was built using term frequency matrices for n-grams.
+
+The app predicts the next word by matching the input phrase to the most likely sequence in the n-gram model.
+
+---
+
+## The Usage of the Application
+
+The user interface was designed with **Mobile First** in mind, making it responsive across devices.
+
+- The user enters a phrase in a text field (**1**).
+- The predicted next word is shown instantly (**2**).
+- The entire entered text is displayed dynamically (**3**).
+
+![App Screenshot](app-screenshot.png)
+
+---
+
+## Additional Information
+
+- The next word prediction app is hosted on Shinyapps.io: [https://sushanth.shinyapps.io/Next_Word_Prediction_App/](https://sushanth.shinyapps.io/Next_Word_Prediction_App/)
+- The app is also accessible on my private Shiny server: [http://apps.sushanth.info/next-word-prediction](http://apps.sushanth.info/next-word-prediction)
+- Code, scripts, reports, and the presentation are available on GitHub: [https://github.com/Sushanth-Code/Coursera-Data-Science-Capstone-Module-7/new/main)
+- This pitch deck is available on RPubs: [https://rpubs.com/Sushanth/Next-Word-Prediction](https://rpubs.com/Sams/1261578)
